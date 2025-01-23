@@ -6,12 +6,12 @@
   "description": "Commonly used typescript types",
   "author": "Ajiu9 <615944323@qq.com>",
   "license": "MIT",
-  "homepage": "https://github.com/ajiu9/ts-type#readme",
+  "homepage": "https://github.com/ajiu9/typing-ts#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajiu9/ts-type.git"
+    "url": "git+https://github.com/ajiu9/typing-ts.git"
   },
-  "bugs": "https://github.com/ajiu9/ts-type/issues",
+  "bugs": "https://github.com/ajiu9/typing-ts/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {

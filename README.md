@@ -1,4 +1,4 @@
-# ts-types
+# typing-tss
 
 TypeScript types commonly used in TypeScript projects.
 
