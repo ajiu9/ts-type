@@ -1,4 +1,6 @@
-# pkg-placeholder
+# ts-types
+
+TypeScript types commonly used in TypeScript projects.
 
 ## License
 

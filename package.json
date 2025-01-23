@@ -1,7 +1,7 @@
 {
-  "name": "ts-type",
+  "name": "ts-types",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.0.2",
   "description": "Commonly used typescript types",
   "author": "Ajiu9 <615944323@qq.com>",
@@ -36,7 +36,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "pnpm build",
+    "build": "unbuild",
     "dev": "pnpm dev",
     "lint": "eslint .",
     "prepublishOnly": "pnpm run build",
@@ -56,6 +56,7 @@
     "rimraf": "^5.0.10",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.7.3",
+    "unbuild": "^3.3.1",
     "vite": "^5.4.14",
     "vitest": "^1.6.0"
   },
