@@ -13,7 +13,6 @@ export type NotEqual<X, Y> = true extends Equal<X, Y> ? false : true
 export type IsAny<T> = 0 extends 1 & T ? true : false
 export type NotAny<T> = true extends IsAny<T> ? false : true
 
-
 export type Pick<T, K extends keyof T> = {
   [key in K]: T[key]
 }
@@ -28,3 +27,12 @@ export type Includes<T extends readonly any[], U> = T extends [infer F, ...infer
 
 export type Push<T extends any[], U> = [...T, U]
 export type Unshift<T extends any[], U> = [U, ...T]
+
+/**
+ * Void function
+ */
+export type Fn = () => void
+/**
+ * Any function
+ */
+export type AnyFn = (...args: any[]) => any
