@@ -1,15 +1,4 @@
 // @ts-check
-import antfu from '@antfu/eslint-config'
+import ajiu9 from '@ajiu9/eslint-config'
 
-export default antfu(
-  {
-    ignores: [
-      // eslint ignore globs here
-    ],
-  },
-  {
-    rules: {
-      // overrides
-    },
-  },
-)
+export default ajiu9()

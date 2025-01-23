@@ -47,17 +47,17 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.14.0",
-    "@types/node": "^20.12.7",
-    "bumpp": "^9.4.0",
-    "eslint": "^9.0.0",
-    "lint-staged": "^15.2.2",
-    "pnpm": "^9.0.2",
-    "rimraf": "^5.0.5",
+    "@ajiu9/eslint-config": "^2.5.2",
+    "@types/node": "^20.17.15",
+    "bumpp": "^9.10.2",
+    "eslint": "^9.18.0",
+    "lint-staged": "^15.4.1",
+    "pnpm": "^9.15.4",
+    "rimraf": "^5.0.10",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.9",
-    "vitest": "^1.5.0"
+    "typescript": "^5.7.3",
+    "vite": "^5.4.14",
+    "vitest": "^1.6.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
